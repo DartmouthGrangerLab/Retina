@@ -1,5 +1,5 @@
 # Retina
-This code is a translated and enhanced version of c++ code by
+This code is a translated and enhanced version of c++ code by:  
 Alexandre Benoit (benoit.alexandre.vision@gmail.com), LISTIC lab, Annecy le vieux, France (maintained by Listic lab www.listic.univ-savoie.fr and Gipsa Lab www.gipsa-lab.inpg.fr)
 
 See:  

@@ -8,7 +8,7 @@ Benoit A., Caplier A., Durette B., Herault, J., "USING HUMAN VISUAL SYSTEM MODEL
   
 This code is meant to model human retina and V1 visual cortex processing. The retina code does low level processing on video inputs, taking into account the spatial and temporal properties of different retinal cell layers, and outputting two information channels: 
 * Parvocellular channel which does detail extraction
-* Magnocellular channel which does motion analysis
+* Magnocellular channel which does motion analysis  
 The V1 code (imageLogPolProjection file) further processes this output by doing frequency and orientation analysis in the log polar domain.
 
 To use, construct Retina object, and call Retina's run method on input video, frame by frame. After calling run on a single frame, get parvo-processed output frame through Retina's getParvo method, and get magno-processed output frame through Retina's getMagno method.

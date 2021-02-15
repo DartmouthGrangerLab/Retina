@@ -4,8 +4,8 @@ Alexandre Benoit (benoit.alexandre.vision@gmail.com), LISTIC lab, Annecy le vieu
 
 See:  
 Benoit A., Caplier A., Durette B., Herault, J., "USING HUMAN VISUAL SYSTEM MODELING FOR BIO-INSPIRED LOW LEVEL IMAGE PROCESSING", Elsevier, Computer Vision and     Image Understanding 114 (2010), pp. 758-773, DOI: http://dx.doi.org/10.1016/j.cviu.2010.01.011
-
-
+  
+  
 This code is meant to model human retina and V1 visual cortex processing. The retina code does low level processing on video inputs, taking into account the spatial and temporal properties of different retinal cell layers, and outputting two information channels: 
 * Parvocellular channel which does detail extraction
 * Magnocellular channel which does motion analysis

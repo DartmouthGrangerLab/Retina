@@ -12,6 +12,6 @@ This code is meant to model human retina and V1 visual cortex processing. The re
   
 The V1 code (imageLogPolProjection file) further processes this output by doing frequency and orientation analysis in the log polar domain.
 
-To use, construct Retina object, and call Retina's run method on input video, frame by frame. After calling run on a single frame, get parvo-processed output frame through Retina's getParvo method, and get magno-processed output frame through Retina's getMagno method.
+To use, construct a Retina object, and call Retina's run method on input video, frame by frame. After calling run on a single input frame, get parvo-processed output frame through Retina's getParvo method, and get magno-processed output frame through Retina's getMagno method.
 
 An example is given in the TestRetinaCode file. The Int6.avi file is a test video that can be used with TestRetinaCode.

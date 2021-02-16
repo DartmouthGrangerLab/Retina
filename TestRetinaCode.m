@@ -24,7 +24,7 @@ function [] = TestRetinaCode ()
     
     %% initialize classes
     colorSamplingMethod = []; % use default
-    useRetinaLogSampling = true;
+    useRetinaLogSampling = false;
     reductionFactor = [];
     samplingStrength = [];
     r = Retina(size(video, 1), size(video, 2), isColor, colorSamplingMethod, useRetinaLogSampling, reductionFactor, samplingStrength); % init matlab version

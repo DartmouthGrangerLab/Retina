@@ -129,7 +129,7 @@ classdef RetinaColor < BasicRetinaFilter
         % @param maxInputValue - scalar double, the maximum input data value (should be 255 for 8 bits images but it can change in the case of High Dynamic Range Images (HDRI)
         % @return nothing, but the output demultiplexed frame is available by the use of the getDemultiplexedColorFrame() function, also use getLuminance() and getChrominance() in order to retreive either luminance or chrominance
         function [] = runColorDemultiplexing (obj, multiplexedColorFrame, adaptiveFiltering)
-            obj.imageGradient = zeros(720, 1280);
+            obj.imageGradient = zeros(obj.nRows, obj.nCols);
             if ~exist('adaptiveFiltering', 'var') || isempty(adaptiveFiltering)
                 adaptiveFiltering = false;
             end
